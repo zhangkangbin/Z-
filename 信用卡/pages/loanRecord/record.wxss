@@ -1,0 +1,54 @@
+.record-panel{
+display: flex;
+align-items:center; /* itemt 居中**/
+justify-content:space-between;
+border: 1px solid #BBBBBB;
+border-radius: 11px;
+padding: 30rpx;
+margin: 20rpx;
+}
+
+.record-content{
+display: flex;
+flex-flow: column;
+
+}
+
+
+.attr_value {
+
+display: flex;
+flex-flow: row;
+
+}
+.radio_label{
+      display: block;
+      padding:0 24rpx;
+      height: 40rpx;
+      line-height: 40rpx;
+}
+.radio-group{
+ width: 100%;
+display: flex;
+justify-content: center;
+}
+
+radio .wx-radio-input {
+      width: 120px;
+      height: 39px;
+      border-radius: 0rpx;
+      color: #BBBBBB;
+      margin:0;
+    
+}
+ 
+radio .wx-radio-input.wx-radio-input-checked {
+      background-color:#0076FF;
+      overflow: hidden;
+   
+}
+radio .wx-radio-input.wx-radio-input-checked::before {
+      content:'';
+    
+    
+}

@@ -1,0 +1,30 @@
+/**index.wxss**/
+.msg-list{
+
+display: flex;
+padding: 15rpx;
+text-align: center;
+background-color: wheat;
+align-items:center;
+margin-top: 2px;
+
+}
+
+.msg-list image{
+width: 33.33%;
+height: 60px;
+
+}
+
+.msg-text{
+display: block;
+width: 33.33%;
+text-align: center;
+}
+
+.msg-time{
+
+width: 33.33%;
+text-align: right;
+
+}

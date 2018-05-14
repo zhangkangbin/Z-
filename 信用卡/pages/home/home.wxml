@@ -1,0 +1,44 @@
+
+<view style='background-color: #e0e0e0'>
+
+<view class='home-title'>
+<text>客服</text>
+<text bindtap='goMassageTap'>消息</text>
+<text class='home-title-scan' bindtap='loanRecordTap'>二维码扫描</text>
+</view>
+
+<view class='bg'>
+
+<text class='loanText'>当前额度：5000</text>
+<text>资料完成度：80%</text>
+<button class='goLoanbtn'  bindtap="goMassageTap">立即借款</button>
+</view>
+
+
+<view class="loanPanel">
+<text class="loan">立即还款</text>
+<text class="loan">产品介绍</text>
+
+</view>
+
+<view class="loanPanel">
+
+  <view class="page-section page-section-spacing swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{images}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item">
+    
+              <image mode="aspectFill" src="{{item}}"/>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+
+</view>
+
+</view>

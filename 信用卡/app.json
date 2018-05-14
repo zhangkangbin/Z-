@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/msg/index",
+    "pages/loanRecord/record"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "信用卡",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,9 @@
+<!--index.wxml-->
+
+
+<view wx:for="{{msglist}}" wx:key="*this" class='msg-list' >
+<image src='meizi.jpg' />
+<text class='msg-text' bindtap='msgTap' data-id="{{item}}">{{item}}</text>
+<text class='msg-time'>09:45</text>
+</view>
+

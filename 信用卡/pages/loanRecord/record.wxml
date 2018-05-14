@@ -1,0 +1,22 @@
+
+<radio-group class="radio-group" bindchange="radioChange">
+ 
+
+           <radio color=''></radio>
+
+      
+           <radio color=''></radio>
+      
+ 
+</radio-group>
+
+<view class="record-panel" wx:for="{{recordList}}" wx:key="*this">
+<view class='record-content'>
+<text>{{item}}金额：10000</text>
+<text>2018</text>
+</view>
+
+
+<text>审核中</text>
+
+</view>

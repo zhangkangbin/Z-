@@ -1,0 +1,125 @@
+
+@import "./weui.wxss";
+
+.home-title{
+ padding: 10px;
+
+}
+.home-title text{
+ margin: 6rpx;
+
+}
+.home-title-scan{
+  float: right;
+  color: #009684;
+}
+
+.bg {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  background-color: #009684;
+  border-radius: 11px;
+  margin: 6px;
+
+  
+}
+
+.bg text {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+
+}
+.loanText{
+
+font-size: 22px;
+}
+
+.goLoanbtn{
+
+width: 100px;
+height: 40px;
+text-align: center;
+font-size: 14px;
+color: #009684;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+
+
+.loanPanel{
+  display: flex;
+ margin-top: 20px;
+background-color: #fff;
+}
+
+.loan{
+text-align: center;
+width: 50%;
+padding: 15px;
+
+}
+
+
+
+.page-body{
+  padding-top: 60rpx;
+}
+.page-section{
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+.page-section_center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-section:last-child{
+  margin-bottom: 0;
+}
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.page-section-spacing{
+  margin-top: 30rpx;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.page-section-title{
+  font-size: 28rpx;
+  color: #999999;
+  margin-bottom: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.page-section-gap .page-section-title{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+
+.page-section-title{
+  padding: 0;
+}
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+.page-section-title{
+  margin-top: 60rpx;
+  position: relative;
+}
+.info{
+  position: absolute;
+  right: 0;
+  color: #353535;
+  font-size: 30rpx;
+}
+.page-foot{
+  margin-top: 50rpx;
+}

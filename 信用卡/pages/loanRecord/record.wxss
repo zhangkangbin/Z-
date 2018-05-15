@@ -1,54 +1,86 @@
-.record-panel{
-display: flex;
-align-items:center; /* itemt 居中**/
-justify-content:space-between;
-border: 1px solid #BBBBBB;
-border-radius: 11px;
-padding: 30rpx;
-margin: 20rpx;
+.record-panel {
+  display: flex;
+  align-items: center; /* itemt 居中**/
+  justify-content: space-between;
+  border: 1px solid #bbb;
+  border-radius: 11px;
+  padding: 30rpx;
+  margin: 20rpx;
 }
 
-.record-content{
-display: flex;
-flex-flow: column;
-
+.record-content {
+  display: flex;
+  flex-flow: column;
 }
 
 
-.attr_value {
 
-display: flex;
-flex-flow: row;
-
-}
-.radio_label{
-      display: block;
-      padding:0 24rpx;
-      height: 40rpx;
-      line-height: 40rpx;
-}
-.radio-group{
- width: 100%;
-display: flex;
-justify-content: center;
-}
-
-radio .wx-radio-input {
-      width: 120px;
-      height: 39px;
-      border-radius: 0rpx;
-      color: #BBBBBB;
-      margin:0;
-    
-}
+.text-rg {
+  display: flex;
+  margin: 20rpx;
  
-radio .wx-radio-input.wx-radio-input-checked {
-      background-color:#0076FF;
-      overflow: hidden;
-   
 }
-radio .wx-radio-input.wx-radio-input-checked::before {
-      content:'';
-    
-    
+
+.text-content-left {
+  display: flex;
+  flex: 1 auto;
+  height: 40px;
+  background-color: white;
+  color: #0076FF;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0076FF;
+
+
+}
+
+.text-content-left-click {
+  display: flex;
+  flex: 1 auto;
+  height: 40px;
+  background-color: #0076FF;
+  color: white;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  justify-content: center;
+  align-items: center;
+   border: 1px solid #0076FF;
+}
+
+
+
+.text-content-right {
+  display: flex;
+  flex: 1 auto;
+  height: 40px;
+  background-color: white;
+  color: #0076FF;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0076FF;
+}
+
+.text-content-right-click{
+  display: flex;
+  flex: 1 auto;
+  height: 40px;
+  background-color: #0076FF;
+  color: white;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  justify-content: center;
+  align-items: center;
+   border: 1px solid #0076FF;
+}
+
+
+.rg-line{
+
+  width: 1px;
+  height: 100%;
+  background-color: white;
 }

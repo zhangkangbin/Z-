@@ -56,6 +56,26 @@ wx.navigateTo({
      })
  
    }
+,
+
+   scanTap(){
+
+     wx.scanCode({
+       success: (res) => {
+         console.log(res)
+       }
+     })
+
+   },
+
+   loanTap(){
+
+     wx.navigateTo({
+       url: '../loan/loan',
+     })
+     
+
+   }
 
 
 

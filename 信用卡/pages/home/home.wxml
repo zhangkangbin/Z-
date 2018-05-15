@@ -4,20 +4,20 @@
 <view class='home-title'>
 <text>客服</text>
 <text bindtap='goMassageTap'>消息</text>
-<text class='home-title-scan' bindtap='loanRecordTap'>二维码扫描</text>
+<text class='home-title-scan' bindtap='scanTap'>二维码扫描</text>
 </view>
 
 <view class='bg'>
 
 <text class='loanText'>当前额度：5000</text>
 <text>资料完成度：80%</text>
-<button class='goLoanbtn'  bindtap="goMassageTap">立即借款</button>
+<button class='goLoanbtn'  bindtap="loanTap">立即借款</button>
 </view>
 
 
 <view class="loanPanel">
 <text class="loan">立即还款</text>
-<text class="loan">产品介绍</text>
+<text class="loan" bindtap='loanRecordTap'>产品介绍</text>
 
 </view>
 

@@ -1,14 +1,11 @@
 
-<radio-group class="radio-group" bindchange="radioChange">
- 
 
-           <radio color=''></radio>
+<view class='text-rg' id='recordRg' bindtap='recordRgTap'  >
 
-      
-           <radio color=''></radio>
-      
- 
-</radio-group>
+<text wx:for="{{rgList}}" wx:key="{{index}}" class='{{item.css}}' data-index='{{index}}' >{{item.value}}</text>
+
+
+</view>
 
 <view class="record-panel" wx:for="{{recordList}}" wx:key="*this">
 <view class='record-content'>

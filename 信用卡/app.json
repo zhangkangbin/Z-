@@ -1,15 +1,12 @@
 {
   "pages": [
- 
+    "pages/id-card/id",
     "pages/home/home",
     "pages/logs/logs",
     "pages/msg/index",
-  "pages/loan/loan",
-  "pages/loanRecord/record"
+    "pages/loan/loan",
+    "pages/loanRecord/record"
   
-
-  
- 
   ],
   "window": {
     "backgroundTextStyle": "light",

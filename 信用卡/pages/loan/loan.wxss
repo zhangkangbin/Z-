@@ -1,0 +1,61 @@
+/* pages/loan/loan.wxss */
+
+page {
+  background-color: #f0f0f2;
+}
+.loan{
+
+  margin-top: 20px;
+}
+.loan-view {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  text-align: right;
+  align-items: center;
+  padding: 6px;
+  font-size: 14px;
+  background-color: white;
+}
+
+input {
+  font-size: 14px;
+  flex: 1;
+}
+
+.line {
+  background-color: gainsboro;
+  width: 100%;
+  height: 1px;
+}
+
+.loan-card {
+  display: flex;
+  flex-grow: row;
+  height: 70px;
+  margin-top: 20px;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.loan-card-child {
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  line-height: 26px;
+  margin-left: 20px;
+}
+
+button {
+  margin: 30px;
+  background-color: #0074d9;
+  color: white;
+}
+
+.button-hover {
+  color: white;
+  background-color: #0074d9;
+}

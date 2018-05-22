@@ -1,0 +1,11 @@
+<!--pages/id-card/id.wxml-->
+
+<view class='id-card'>
+
+<text>鸡：富婆找不到我</text>
+
+<image bindtap='selectPhotoTap0'src="{{image1}}" />
+<image bindtap='selectPhotoTap1' src="{{image2}}" />
+
+</view>
+

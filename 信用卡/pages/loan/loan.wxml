@@ -1,0 +1,61 @@
+<!--pages/loan/loan.wxml-->
+
+<view class='loan'>
+
+<view class='loan-view'>
+<text>借款金额 </text><input placeholder='当前额度：3000'></input>
+</view>
+
+<view class='line' />
+
+<view class='loan-view'>
+<text>分期方式 </text><input placeholder='3个月'></input>
+</view>
+<view class='line' />
+
+<view class='loan-view'>
+<text>还款方式 </text><input placeholder='每月等额' ></input>
+</view>
+
+<view class='line' />
+
+
+<view class='loan-view'>
+<text>还款日 </text><input placeholder='每月15日'></input>
+</view>
+
+<view class='line' />
+
+
+<view class='loan-view'>
+<text>总利息 </text><input type="digit" placeholder='0.00'></input>
+</view>
+<view class='line' />
+
+
+<view class='loan-card'>
+
+<text>图片</text>
+<view class='loan-card-child'>
+<text>还款银行卡</text>
+<text>123456</text>
+</view>
+
+</view>
+
+<view class='loan-card'>
+
+<text>图片</text>
+<view class='loan-card-child'>
+<text>收款账户</text>
+<text>123456</text>
+</view>
+
+</view>
+
+
+
+
+<button  class='button-hover' bindtap='submitTap'>确定提交</button>
+
+</view>

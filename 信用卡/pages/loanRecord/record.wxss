@@ -16,6 +16,7 @@
 
 
 .text-rg {
+  
   display: flex;
   margin: 20rpx;
  

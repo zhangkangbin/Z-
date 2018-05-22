@@ -1,0 +1,17 @@
+/* pages/id-card/id.wxss */
+
+
+.id-card{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+image {
+margin-top: 10px;
+background-color: wheat;
+
+}

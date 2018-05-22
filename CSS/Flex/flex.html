@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!-- 开发环境版本，包含了用帮助的命令行警告 -->
+
+		<title>Flex</title>
+	</head>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<link rel="stylesheet" href="data.css" />
+
+	<body>
+
+		<div class="column" id="column">
+			<p v-for="n in 6">
+				{{ n }}
+			</p>
+		</div>
+
+		<div class="row" id="row">
+			<p v-for="n in 6">
+				{{ n }}
+			</p>
+		</div>
+
+		<div class="flex-wrap-wrap">
+			<p>A</p>
+			<p>B</p>
+			<p>C</p>
+			<p>D</p>
+			<p>E</p>
+		</div>
+
+		<div class="flex-wrap-reverse">
+			<p>A</p>
+			<p>B</p>
+			<p>C</p>
+			<p>D</p>
+			<p>E</p>
+		</div>
+		
+		
+		<div class="justify-content-center">
+			<p>A</p>
+			<p>B</p>
+			<p>C</p>
+			<p>D</p>
+			<p>E</p>
+		</div>
+		
+		<div class="justify-content-start">
+			<p>A</p>
+			<p>B</p>
+			<p>C</p>
+			<p>D</p>
+			<p>E</p>
+		</div>
+
+
+	<div class="justify-content-around">
+			<p>A</p>
+			<p>B</p>
+			<p>C</p>
+			<p>D</p>
+			<p>E</p>
+		</div>
+
+
+	<div class="justify-content-between">
+			<p>A</p>
+			<p>B</p>
+			<p>C</p>
+			<p>D</p>
+			<p>E</p>
+		</div>
+
+
+	<div class="justify-content-between-center">
+			<p>A</p>
+			<p>B</p>
+			<p>C</p>
+			<p>D</p>
+			<p>E</p>
+		</div>
+
+
+	</body>
+
+	<script type="text/javascript" src="data.js"></script>
+
+</html>
